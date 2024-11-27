@@ -22,3 +22,4 @@ node3.next = node4
 node4.next = node5
 
 traverseAndPrint(node1)
+

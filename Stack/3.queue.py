@@ -20,6 +20,7 @@ stack.put('c')
 print("Full: ", stack.full())
 print("Size: ", stack.qsize())
 
+
 # get() function to pop
 # element from stack in
 # LIFO order

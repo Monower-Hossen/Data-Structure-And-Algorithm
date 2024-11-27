@@ -16,6 +16,7 @@ node4.next = node1
 
 currentNode = node1
 startNode = node1
+
 print(currentNode.data, end=" -> ")
 currentNode = currentNode.next
 
@@ -24,3 +25,4 @@ while currentNode != startNode:
     currentNode = currentNode.next
 
 print("...")
+

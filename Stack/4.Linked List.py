@@ -6,13 +6,13 @@ class Stack:
         self.stack.append(element)
 
     def pop(self):
-        if self.isEmpty():
-            return "Stack is empty"
+        # if self.isEmpty():
+        #     return "Stack is empty"
         return self.stack.pop()
 
     def peek(self):
-        if self.isEmpty():
-            return "Stack is empty"
+        # if self.isEmpty():
+        #     return "Stack is empty"
         return self.stack[-1]
 
     def isEmpty(self):
